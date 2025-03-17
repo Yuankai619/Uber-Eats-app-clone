@@ -34,14 +34,14 @@ class DeliveryWidget extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
-                        '祥豐街339號',
+                        '海洋大學',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 14,
                         ),
                       ),
                       Icon(
-                        Icons.arrow_drop_down,
+                        Icons.keyboard_arrow_down,
                         color: Colors.white,
                         size: 24,
                       ),
@@ -70,7 +70,7 @@ class DeliveryWidget extends StatelessWidget {
                     children: [
                       Text('外送', style: TextStyle(fontSize: 14)),
                       Icon(
-                        Icons.arrow_drop_down,
+                        Icons.keyboard_arrow_down,
                         color: Colors.white,
                         size: 24,
                       ),
@@ -81,7 +81,7 @@ class DeliveryWidget extends StatelessWidget {
               SizedBox(width: 10),
               IconButton(
                 onPressed: () {},
-                icon: Icon(Icons.shopping_cart, color: Colors.white),
+                icon: Icon(Icons.shopping_cart_outlined, color: Colors.white),
               ),
             ],
           ),

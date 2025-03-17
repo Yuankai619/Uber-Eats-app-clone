@@ -102,8 +102,12 @@ class UberEatsHome extends StatelessWidget {
                         Tab(
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: const [
-                              Icon(Icons.directions_car),
+                            children: [
+                              Image.asset(
+                                "assets/images/UberLogo.png",
+                                width: 50,
+                                height: 50,
+                              ),
                               SizedBox(width: 14),
                               Text('搭乘'),
                             ],
@@ -112,8 +116,12 @@ class UberEatsHome extends StatelessWidget {
                         Tab(
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: const [
-                              Icon(Icons.restaurant),
+                            children: [
+                              Image.asset(
+                                "assets/images/UberEatsLogo.png",
+                                width: 40,
+                                height: 40,
+                              ),
                               SizedBox(width: 14),
                               Text('Uber Eats'),
                             ],
