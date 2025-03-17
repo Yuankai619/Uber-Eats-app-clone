@@ -1,16 +1,28 @@
-# uber_eats_clone
+# Uber Eats app clone
+This is a pure forntend in Uber Eats app made by Flutter.
+Not have any functionality and backend, just for practice Wiget usage in Flutter.
 
-A Uber Eats clone app by flutter
+## demo vieo
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/fPBb7tgYyHc/0.jpg)](https://www.youtube.com/watch?v=fPBb7tgYyHc)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Use Widget
+- Text
+- Image
+- Icon
+- Column
+- Row
+- Color
+- Stack
+- SingleChildScrollView
+- Container
+- Padding
+- SizeBox
+- Expanded
+- Positioned
+- AppBar
+- Divider
+- ClipRRect
+- Wrap
+- NestedScrollView
+- SliverPersistentHeader
+- Theme
