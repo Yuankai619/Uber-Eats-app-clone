@@ -15,6 +15,7 @@ Not have any functionality and backend, just for practice Wiget usage in Flutter
 - Row
 - Color
 - Stack
+- ListView
 - SingleChildScrollView
 - Container
 - Padding
