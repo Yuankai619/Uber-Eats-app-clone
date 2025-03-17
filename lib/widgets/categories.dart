@@ -20,7 +20,12 @@ class Categories extends StatelessWidget {
               padding: EdgeInsets.only(right: 16),
               child: Column(
                 children: [
-                  Icon(category['icon'], size: 40, color: Colors.white),
+                  Image.asset(
+                    category['icon'],
+                    width: 40,
+                    height: 40,
+                    // color: Colors.white,
+                  ),
                   SizedBox(height: 14),
                   Text(
                     category['name'],
